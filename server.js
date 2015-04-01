@@ -6,9 +6,7 @@ var stylus = require('stylus');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var Message = require('C:/Users/DKINCAID/WebstormProjects/SimpleWebSite/Server/models/Message.js');
-
-var __dirname = 'C:/Users/DKINCAID/WebstormProjects/SimpleWebSite';
+var Message = require('./Server/models/Message.js');
 
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
