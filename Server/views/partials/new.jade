@@ -1,0 +1,9 @@
+//
+   Created by DKINCAID on 4/2/2015.
+
+.panel.panel-primary
+    .panel-heading.text-center New
+    .panel-body
+        .row(ng-repeat="show in shows")
+            .col-md-6 {{show.name}}
+            .col-md-6 {{show.airing | date:"yyyy-MM-dd HH-mm"}}
